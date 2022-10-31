@@ -1,6 +1,6 @@
 {
   "name": "prhttp-vue",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Vue Component lifecycle binding for prhttp",
   "type": "module",
   "main": "index.js",
