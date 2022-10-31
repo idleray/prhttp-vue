@@ -15,7 +15,6 @@ export function lifecycleMixin(httpClient) {
         },
     
         beforeDestroy() {
-            console.log("mixin beforeDestroy")
             this.lifecycle.setState(Lifecycle.STATE.BEFORE_UNMOUNTED)
             if(httpClient) {
                 httpClient.unbindLifecycle(this.lifecycle)
